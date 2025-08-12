@@ -34,7 +34,7 @@ function AI() {
       console.log('Sending message:', message) // Debug log
       
       // Test berbagai URL untuk debugging
-      let apiUrl = "http://localhost:5000/get_response";
+      let apiUrl = "https://arthurtirta.pythonanywhere.com/get_response";
       
       // Jika pakai proxy di package.json, coba URL relatif
       // apiUrl = "/get_response";
