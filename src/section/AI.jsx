@@ -69,7 +69,7 @@ function AI() {
       console.error("Fetch error:", error)
       const errorMessage = { 
         type: 'assistant', 
-        content: `Error: ${error.message}. Make sure the Flask server is running on http://localhost:5000`,
+        content: `Error: ${error.message}. Make sure the Flask server is running on ${apiUrl} `,
         isError: true
       }
       setMessages(prev => [...prev, errorMessage])
