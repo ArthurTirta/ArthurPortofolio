@@ -91,7 +91,7 @@ function Navbar () {
     <>
       <nav ref={navRef} className='fixed z-50 flex flex-col justify-around w-full h-full px-10 uppercase bg-black lg:text-white/60 py-0 md:w-1/2 md:left-1/2 text-white'>
         <div className='flex flex-col text-5xl gap-y-2 md:text-6xl lg:text-7xl '>
-          {["home","services","about","work","contact"].map(
+          {["home","services","testimoni","work","contact"].map(
             (section, index) => (
               <div key={index} ref={(el) => (linksRef.current[index] = el)}>
                 <Link href="" className='transition-all duration-300 cursor-pointer hover:text-white' to={`${section}`} smooth offset={0} duration={2000}>
@@ -107,7 +107,7 @@ function Navbar () {
         </div>
         <div className='font-light'>
           <p className='tracking-wider text-white/50'> Social Media</p>
-          <div className='flex flex-row flex-wrap md:flex-row gap-x-2'>{socials.map(
+          <div className='flex fle-x-row flex-wrap md:flex-row gap-x-2'>{socials.map(
             (social,index) => (
             <a href={social.href} key={index} className=' text-sm leading-loose tracking-widest uppercase hover:text-white transition-colors duration-300 ' >
               {social.name}
