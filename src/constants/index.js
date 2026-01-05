@@ -118,7 +118,7 @@ export const projects = [
 ];
 export const socials = [
   { name: "Instagram", title:"@arthur.tj", href: "https://www.instagram.com/arthur.tj/", gambar: "./assets/icons/instagram.svg" },
-  // { name: "LinkedIn",title: "Arthur Tirtajaya Jehuda", href: "https://www.linkedin.com/in/arthur-tirtajaya/", gambar: "./assets/icons/linkedin.svg"},
+  { name: "LinkedIn",title: "Arthur Tirtajaya Jehuda", href: "https://www.linkedin.com/in/arthur-tirtajaya/", gambar: "./assets/icons/linkedin.svg"},
   { name: "GitHub",title:"ArthurTirta", href: "https://github.com/ArthurTirta",gambar: "./assets/icons/github.svg"  },
   { name: "Gmail",title:"arthur.tirtajaya@gmail.com", href:".",gambar: "./assets/icons/icons8-gmail.svg"  },
 ];
