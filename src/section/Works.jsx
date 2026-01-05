@@ -80,6 +80,7 @@ useGSAP(() => {
       <div className="relative flex flex-col font-light "  onMouseMove={handleMouseMove}>
         {projects.map((project, projectIndex) => (
             <div id="projects" className="relative flex flex-col cursor-pointer group md:gap-0" key={project.id}
+            onClick={() => window.open(project.href, '_blank')}
             onMouseEnter={() => handleMouseEnter(projectIndex)}
             onMouseLeave={() => handleMouseLeave(projectIndex)}>
                 <div className=" text-black transition-all duration-500 
