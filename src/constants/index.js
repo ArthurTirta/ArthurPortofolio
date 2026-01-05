@@ -84,7 +84,7 @@ export const projects = [
     description:
       "A Website for our partner Ummu Nada specializing for cakes phone accessories including cases, chargers, cables, and power banks with MagSafe compatibility.",
     href: "https://ummu-nada.vercel.app/",
-    image: "assets/projects/mobile-accessories-store.jpg",
+    image: "assets/projects/ummunada.png",
     bgImage: "assets/backgrounds/blanket.jpg",
     frameworks: [
       { id: 1, name: "React" },
@@ -102,7 +102,7 @@ export const projects = [
     description:
       "A Website for our partner Ummu Nada specializing for cakes phone accessories including cases, chargers, cables, and power banks with MagSafe compatibility.",
     href: "https://github.com/ArthurTirta/SMGT",
-    image: "assets/projects/mobile-accessories-store.jpg",
+    image: "assets/projects/smgt.png",
     bgImage: "assets/backgrounds/blanket.jpg",
     frameworks: [
       { id: 1, name: "React" },
